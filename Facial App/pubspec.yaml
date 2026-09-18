@@ -1,0 +1,42 @@
+name: attendance_ai
+description: AI-powered attendance management system.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.5
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase
+  firebase_core: ^3.6.0
+  firebase_auth: ^5.3.1
+  cloud_firestore: ^5.4.4
+
+  # State management
+  provider: ^6.1.2
+
+  # Networking (Cloudinary + mock API)
+  http: ^1.2.0
+  http_parser: ^4.0.2
+  mime: ^1.0.5
+
+  # UI
+  fl_chart: ^0.69.0
+  google_fonts: ^6.2.1
+
+  # Camera & image
+  image_picker: ^1.1.2
+
+  # Local storage
+  shared_preferences: ^2.3.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
